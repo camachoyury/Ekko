@@ -1,5 +1,6 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.data
 
+import com.camachoyury.ekko.domain.Item
 import com.google.gson.annotations.SerializedName
 
 data class ItemResponse(

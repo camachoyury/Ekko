@@ -1,7 +1,9 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.view
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.camachoyury.ekko.domain.Item
+import com.camachoyury.ekko.domain.ItemUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

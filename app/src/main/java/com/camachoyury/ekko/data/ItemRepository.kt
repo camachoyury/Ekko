@@ -1,5 +1,6 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.data
 
+import com.camachoyury.ekko.domain.Item
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -1,4 +1,4 @@
-package com.camachoyury.ekko.composables
+package com.camachoyury.ekko.view.composables
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Arrangement

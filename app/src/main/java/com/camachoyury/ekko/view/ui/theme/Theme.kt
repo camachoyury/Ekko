@@ -1,4 +1,4 @@
-package com.camachoyury.ekko.ui.theme
+package com.camachoyury.ekko.view.ui.theme
 
 import android.app.Activity
 import android.os.Build

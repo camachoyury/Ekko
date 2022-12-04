@@ -1,5 +1,6 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.domain
 
+import com.camachoyury.ekko.data.ItemRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

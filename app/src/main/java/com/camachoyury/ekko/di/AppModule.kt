@@ -1,9 +1,10 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.di
 
+import com.camachoyury.ekko.data.ItemRepository
+import com.camachoyury.ekko.data.ItemService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

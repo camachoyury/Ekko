@@ -1,4 +1,4 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.view
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -39,8 +39,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.camachoyury.ekko.composables.ProgressBar
-import com.camachoyury.ekko.ui.theme.EkkoTheme
+import com.camachoyury.ekko.view.composables.ProgressBar
+import com.camachoyury.ekko.domain.Item
+import com.camachoyury.ekko.view.ui.theme.EkkoTheme
 
 @ExperimentalFoundationApi
 @Composable

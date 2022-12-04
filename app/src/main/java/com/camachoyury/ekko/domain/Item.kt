@@ -1,4 +1,4 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.domain
 
 data class Item( val name : String,
                  val title : String,

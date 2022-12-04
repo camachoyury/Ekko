@@ -1,4 +1,4 @@
-package com.camachoyury.ekko
+package com.camachoyury.ekko.data
 
 import retrofit2.http.GET
 
