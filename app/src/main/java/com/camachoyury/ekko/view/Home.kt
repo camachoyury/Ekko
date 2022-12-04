@@ -42,6 +42,8 @@ import androidx.compose.ui.unit.dp
 import com.camachoyury.ekko.view.composables.ProgressBar
 import com.camachoyury.ekko.domain.Item
 import com.camachoyury.ekko.view.ui.theme.EkkoTheme
+import androidx.compose.material.*
+import com.camachoyury.core.Greeting
 
 @ExperimentalFoundationApi
 @Composable
@@ -51,6 +53,14 @@ fun HomeScreen(viewModel: HomeViewModel) {
 
     val context = LocalContext.current
 
+    Column() {
+
+
+    @Composable
+    fun GreetingView(text: String) {
+       Text(text = text)
+    }
+    GreetingView(Greeting().greet())
 
     when (items.value) {
         is HomeViewModel.ItemListState.Success -> {
@@ -73,6 +83,7 @@ fun HomeScreen(viewModel: HomeViewModel) {
             ProgressBar()
         }
     }
+}
 }
 
 @Composable
