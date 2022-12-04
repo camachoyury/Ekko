@@ -40,9 +40,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.camachoyury.ekko.view.composables.ProgressBar
-import com.camachoyury.ekko.domain.Item
+import com.camachoyury.core.domain.Item
+
 import com.camachoyury.ekko.view.ui.theme.EkkoTheme
-import androidx.compose.material.*
 import com.camachoyury.core.Greeting
 
 @ExperimentalFoundationApi

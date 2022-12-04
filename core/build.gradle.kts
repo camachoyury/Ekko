@@ -2,6 +2,8 @@ plugins {
     kotlin("multiplatform")
     id("com.android.library")
     kotlin("plugin.serialization")
+   id ("kotlinx-serialization")
+
 
 }
 
@@ -21,12 +23,17 @@ kotlin {
     sourceSets {
         val commonMain by getting{
             dependencies{
-                implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-native-mt")
-                implementation("io.ktor:ktor-client-core:1.6.7")
-                implementation("io.ktor:ktor-client-json:1.6.7")
-                implementation("io.ktor:ktor-client-logging:1.6.7")
-                implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.2.1")
+
+                // Ktor
+                implementation("io.ktor:ktor-client-core:1.6.0")
+                implementation("io.ktor:ktor-client-json:1.6.0")
+                implementation("io.ktor:ktor-client-logging:1.6.0")
+                implementation("io.ktor:ktor-client-serialization:1.6.0")
+
+                // Kotlinx Serialization
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.1")
+
 
             }
         }
