@@ -14,10 +14,4 @@ class ItemRepository @Inject constructor(private val itemService: ItemService) {
         }.flowOn(Dispatchers.IO)
     }
 
-    fun getTShirtById(id: String): Flow<Item> {
-        return flow {
-            val item = itemService.getItems().items.find { s -> s.image == id }
-            emit(item!!)
-        }.flowOn(Dispatchers.IO)
-    }
 }
